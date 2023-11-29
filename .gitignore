@@ -16,4 +16,5 @@ doc
 .AppleDouble
 .LSOverride
 ._*
+composer.lock
 
