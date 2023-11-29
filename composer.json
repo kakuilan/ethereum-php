@@ -1,10 +1,10 @@
 {
-  "name": "digitaldonkey/ethereum-php",
-  "description": "A library integrating Ethereum with typed PHP.",
+  "name": "kakuilan/ethereum-php",
+  "description": "A library integrating Ethereum with typed PHP.forked from digitaldonkey/ethereum-php",
   "require": {
-    "php": ">=7.1",
+    "php": ">=7.2",
     "ext-json": "*",
-    "graze/guzzle-jsonrpc": "~3.0",
+    "kakuilan/guzzle-jsonrpc": "~3.0",
     "pear/math_biginteger": "^1.0",
     "kornrunner/keccak": "^1.0",
     "digitaldonkey/ecverify":"1.0"
