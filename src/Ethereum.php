@@ -577,9 +577,11 @@ class Ethereum extends EthereumStatic implements Web3Interface
         foreach ($values as $i => $val) {
             if (is_object($val)) {
                 $return[$i] = $val->toArray();
+                continue;
             }
             if (is_array($val)) {
                 $return[$i] = self::arrayToComplexType($typeClass, $val);
+                continue;
             }
             $return[$i] = new $typeClass($val);
         }
